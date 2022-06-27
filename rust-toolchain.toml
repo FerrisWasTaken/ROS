@@ -1,0 +1,5 @@
+[toolchain]
+channel="nightly"
+components = ["rust-src", "llvm-tools-preview", "cargo",
+"rust-docs"]
+targets = ["x86_64-ros"]

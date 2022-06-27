@@ -1,0 +1,7 @@
+cargo:rerun-if-changed=/home/perseus/Dev/ROS/Cargo.toml
+cargo:rustc-link-search=native=/home/perseus/Dev/ROS/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-0de2b1037a427a8f/out
+cargo:rustc-link-lib=static=kernel_bin-ros
+cargo:rerun-if-env-changed=KERNEL
+cargo:rerun-if-env-changed=KERNEL_MANIFEST
+cargo:rerun-if-changed=/home/perseus/Dev/ROS/target/x86_64-ros/debug/ros
+cargo:rerun-if-changed=build.rs
