@@ -14,7 +14,7 @@ pkgs.stdenv.mkDerivation rec {
   src = ./.;
   PATH = "$PATH:~/.cargo/bin";
   CARGO_MANIFEST_DIR = ./.;
-  outputHash = "eace0d53c3014b8b386933852249810fb55a1f9083afaa0e8bcfb002b7bd17f7";
+  outputHash = "23ebe1a4b801802ab62c8a024cfb6cff89b9e06dab15fc094b05547fc67755db";
   outputHashAlgo = "sha256";
   outputHashMode = "flat";
 
