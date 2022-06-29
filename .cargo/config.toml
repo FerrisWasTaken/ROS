@@ -7,3 +7,6 @@ target = "x86_64-ros.json"
 
 [target.'cfg(target_os = "none")']
 runner = "bootimage runner"
+
+[source.crates-io]
+registry = "https://github.com/rust-lang/crates.io-index"
